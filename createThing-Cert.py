@@ -9,7 +9,7 @@ import string
 ################################################### Parameters for Thing
 thingArn = 'arn:aws:iot:us-east-2:761921746184:thinggroup/thing_group_1'
 thingId = 'thing_group_1'
-thingName = ''.join([random.choice(string.ascii_letters + string.digits) for n in xrange(15)])
+thingName = ''.join([random.choice(string.ascii_letters + string.digits) for n in range(15)])
 defaultPolicyName = 'My_Iot_Policy'
 ###################################################
 
